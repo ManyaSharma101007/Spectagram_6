@@ -73,9 +73,6 @@ export default class Profile extends Component {
   }
 
   render() {
-    if (!this.state.fontsLoaded) {
-      return <AppLoading />;
-    } else {
       return (
         <View
           style={
